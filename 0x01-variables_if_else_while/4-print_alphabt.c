@@ -7,18 +7,18 @@
 
 int main(void)
 {
-char alp = 'a';
+	char alp = 'a';
 
-while (alp <= 'z')
-{
-if ((alp != 'q') && (alp != 'e'))
-{
-putchar(alp);
-}
-alp++;
+	while (alp <= 'z')
+	{
+		if ((alp != 'q') && (alp != 'e'))
+		{
+			putchar(alp);
+		}
+		alp++;
 
-}
-putchar('\n');
+	}
+	putchar('\n');
 
-return (0);
+	return (0);
 }
