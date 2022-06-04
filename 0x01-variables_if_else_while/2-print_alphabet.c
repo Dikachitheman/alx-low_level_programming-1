@@ -8,14 +8,14 @@
 
 int main(void)
 {
-char alp = 'a';
+	char alp = 'a';
 
-while (alp <= 'z')
-{
-putchar(alp);
-alp++;
-}
-putchar('\n');
+	while (alp <= 'z')
+	{
+		putchar(alp);
+		alp++;
+	}
+	putchar('\n');
 
-return (0);
+	return (0);
 }
