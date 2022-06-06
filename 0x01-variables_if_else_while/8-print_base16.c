@@ -8,22 +8,22 @@
 
 int main(void)
 {
-int n = '0';
-int alp = 'a';
+	int n = '0';
+	int alp = 'a';
 
-while (n <= '9')
-{
-putchar(n); /*prints 0-9*/
-n++;
-}
+	while (n <= '9')
+	{
+		putchar(n); /*prints 0-9*/
+		n++;
+	}
 
-while (alp <= 'f')
-{
-putchar(alp); /*prints a-f*/
-alp++;
-}
+	while (alp <= 'f')
+	{
+		putchar(alp); /*prints a-f*/
+		alp++;
+	}
 
-putchar('\n');
+	putchar('\n');
 
-return (0);
+	return (0);
 }
