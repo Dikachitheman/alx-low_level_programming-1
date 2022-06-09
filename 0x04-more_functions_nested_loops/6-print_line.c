@@ -8,9 +8,9 @@
 
 void print_line(int n)
 {
-	int i;
+	int times = n;
 
-	for (i = 0; i < n; i++)
+	for (times = n; times > 0; times--)
 	{
 		_putchar(95);
 	}
