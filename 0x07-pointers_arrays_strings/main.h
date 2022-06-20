@@ -1,6 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-
+#define NULL 0
 #include <stdio.h>
 
 char *_memset(char *s, char b, unsigned int n);
