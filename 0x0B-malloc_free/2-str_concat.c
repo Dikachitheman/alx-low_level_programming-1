@@ -18,7 +18,7 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	while (s1[i])
 		len1++, i++;
-	while (s2[i])
+	while (s2[j])
 		len2++, j++;
 	len2++; /* add null terminator to length */
 
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	while (j < len2)
 	{
-		concat[i] = s2[i];
+		concat[i] = s2[j];
 		i++, j++;
 	}
 
