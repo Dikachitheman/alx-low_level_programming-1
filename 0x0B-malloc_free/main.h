@@ -2,7 +2,7 @@
 #define _MAIN_H_
 #include <stdio.h>
 #include <stdlib.h>
-#define NULL "0"
+#define NULL 0
 
 int _putchar(char);
 char *create_array(unsigned int size, char c);
