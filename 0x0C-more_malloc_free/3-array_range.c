@@ -14,10 +14,11 @@ int *array_range(int min, int max)
 	int i;
 	int n = ((max - min) + 1); /* +1 accounts for terminating null byte */
 
+	if (min < max)
+		return (NULL);
+
 	p = malloc(sizeof(int) * n); /* malloc */
 
-	if (min > max) /* validate input */
-		return (NULL);
 	if (p == NULL) /* check error */
 		return (NULL);
 
