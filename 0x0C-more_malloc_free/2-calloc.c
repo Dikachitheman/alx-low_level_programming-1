@@ -23,7 +23,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 	/* set allocated memory values to zero */
-	for (i = 0; i < nmemb * size; i++)
+	for (i = 0; i < (nmemb * size); i++)
 		p[i] = 0;
 
 	return (p);
