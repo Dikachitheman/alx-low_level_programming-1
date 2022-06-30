@@ -10,7 +10,7 @@
 
 int *array_range(int min, int max)
 {
-	char *p;
+	int *p;
 	int i;
 	int n = ((max - min) + 1); /* +1 accounts for terminating null byte */
 
