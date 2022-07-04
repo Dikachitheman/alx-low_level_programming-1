@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "dog.h"
 
 /**
  * print_dog - prints all member info of a struct dog
