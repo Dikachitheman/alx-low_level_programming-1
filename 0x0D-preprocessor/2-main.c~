@@ -1,0 +1,17 @@
+#include "main.h"
+void printFileName ()
+{
+	printf("%s\n", _FILE_);
+}
+
+/**
+ * main - prints the file name from its compilation
+ *
+ * Return: always 0
+ */
+
+int main(int argc, char *argv)
+{
+	printFileName();
+	return (0);
+}
