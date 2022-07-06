@@ -5,34 +5,17 @@
 #include <math.h>
 
 int _putchar(char);
-/**
- * op_add - returns the sum of a and b.
- */
+
 int op_add(int a, int b);
 
-/**
- * op_sub - returns the difference of a and b.
- */
 int op_sub(int a, int b);
-/**
- * op_mul - returns the product of a and b.
- */
+
 int op_mul(int a, int b);
-/**
- * op_div - returns the result of the division of a by b.
- */
+
 int op_div(int a, int b);
-/**
- * op_mod - returns the remainder of the division of a by b.
- */
+
 int op_mod(int a, int b);
-/**
- * get_op_func - selects the correct function to perform the operation asked by
- * the user.
- * @s: operator passed as argument to the program
- * Return: a pointer to the function that corresponds to the operator given as a
- * parameter.
- */
+
 int (*get_op_func(char *s))(int, int);
 
 /**
