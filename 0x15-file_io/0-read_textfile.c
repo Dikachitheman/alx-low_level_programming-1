@@ -20,7 +20,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	fd = open(filename, 0_RDWR);
 
-	if (fd == -1)
+	if (fd == -1 || fd == NULL)
 		return (0);
 
 	buffer = malloc(sizeof(char) * letters);
