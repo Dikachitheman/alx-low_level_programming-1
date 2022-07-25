@@ -1,5 +1,5 @@
 #include "main.h"
-#define BUFF_SIZE 1024
+#define BUFF_SIZE 1204
 
 /**
  * error-file - checks if files can be opened.
